@@ -1,0 +1,38 @@
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f8f9fa;
+    width: 100%;
+    
+    img {
+        margin-bottom: 30px;
+        margin: 10px 50px;
+        width: 60px;
+    }
+
+    .icon{
+        display:block;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 30px auto;
+        margin-bottom: 50px;
+        padding :30px 30px;
+        max-width: 1200px;
+    }
+
+   
+
+    p {
+        color: gray;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 768px){
+    .icons{
+      flex-direction: column;
+      
+    }
+
+}

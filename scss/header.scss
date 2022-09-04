@@ -1,0 +1,33 @@
+header{
+   position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+   background: #f8f9fa;
+   height: 30px;
+    
+    
+   .head{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 3px;
+   } 
+
+   button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    border: none;
+    height: 25px;
+    width: 60px;
+    border-radius: 3px;
+    color: white;
+    background: #007bff;
+    
+   
+   }
+}
